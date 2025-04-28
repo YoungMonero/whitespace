@@ -722,6 +722,21 @@ footer {
     margin-top: 0;
   }
 
+  .footer-seciii img {
+    padding-top: 0;
+    width: 100px;
+  }
+
+  .logos img {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .terms img {
+    width: 20px;
+    margin-top: 0;
+  }
+
   .section-vi .work img {
     height: 300px;
     width: 370px;
@@ -775,11 +790,6 @@ footer {
     padding-top: 40px;
   }
 
-  .footer-seciii img {
-    padding-top: 0;
-    width: 100px;
-  }
-
   .part-i {
     text-align: start;
     margin-bottom: 40px;
@@ -791,11 +801,6 @@ footer {
     margin-bottom: 30px;
   }
 
-  .logos img {
-    margin-top: 0;
-    padding-top: 0;
-  }
-
   .logos h2 {
     margin-top: -9px;
   }
@@ -805,11 +810,6 @@ footer {
     gap: 1.5rem;
     justify-content: space-between;
     border: none;
-  }
-
-  .terms img {
-    width: 20px;
-    margin-top: 0;
   }
 
   .hp h4 {
