@@ -52,14 +52,14 @@ nav {
   padding: 10px;
   color: #fff;
   text-align: center;
-  background-image: url('./images/mobile-vec.png');
+  background-image: url("./images/mobile-vec.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .section-vi {
   background-color: #043873;
-  background-image: url('./images/vector.png');
+  background-image: url("./images/vector.png");
   background-size: contain;
   background-repeat: no-repeat;
   gap: 100px;
@@ -277,6 +277,12 @@ nav {
 
 .section-iv {
   padding: 10px;
+  margin-top: 60px;
+}
+
+.section-iv h1 {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .readmore {
@@ -375,15 +381,6 @@ nav {
   margin: 20px 0;
 }
 
-.section-iv h1 {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.section-iv {
-  margin-top: 60px;
-}
-
 .sliders {
   display: flex;
   justify-content: center;
@@ -463,17 +460,17 @@ footer {
   text-align: center;
 }
 
+.footer-seciii img {
+  padding: 40px;
+  width: 150px;
+}
+
 .terms {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   padding-bottom: 30px;
   border-bottom: 1.5px solid #2e4e73;
-}
-
-.footer-seciii img {
-  padding: 40px;
-  width: 150px;
 }
 
 .terms img {
@@ -522,10 +519,6 @@ footer {
   z-index: -1;
   height: 25px;
   left: 60px;
-}
-
-.sup-i {
-  position: relative;
 }
 
 .slash-iv img {
@@ -604,7 +597,7 @@ footer {
 
   .section-i .section-div {
     background-size: cover;
-    background-image: url('./images/vec-i.png');
+    background-image: url("./images/vec-i.png");
     background-repeat: no-repeat;
   }
 
@@ -775,11 +768,6 @@ footer {
     text-align: center;
   }
 
-  .readmore {
-    display: flex;
-    justify-content: center;
-  }
-
   .footer-seciii {
     text-align: start;
     display: flex;
@@ -858,15 +846,12 @@ footer {
 
     .info {
       padding-top: 45px;
+      margin-bottom: 30px;
     }
 
     .info button,
     .inform button {
       margin-top: 40px;
-    }
-
-    .info {
-      margin-bottom: 30px;
     }
 
     .info h1,
