@@ -1,5 +1,911 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #043873;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+nav {
+  display: none;
+}
+
+.menu img {
+  width: 42px;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.logo {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.logo p {
+  font-size: 19.64px;
+  font-weight: 700;
+  line-height: 100%;
+  padding-top: 5px;
+}
+
+.logo img {
+  width: 33px;
+  height: 26.35px;
+}
+
+.section-i {
+  background-color: #043873;
+  gap: 100px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  background-image: url("./images/mobile-vec.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-vi {
+  background-color: #043873;
+  background-image: url("./images/vector.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  gap: 100px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.section-v {
+  background-color: #043873;
+  background-size: contain;
+  background-repeat: no-repeat;
+  gap: 100px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.section-div {
+  margin-bottom: 50px;
+}
+
+.section-ii {
+  gap: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.info button,
+.inform button {
+  padding: 15px 20px;
+  margin-top: 50px;
+  background-color: #4f9cf9;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.trywhite button,
+.part-i button {
+  padding: 15px 20px;
+  margin-top: 50px;
+  background-color: #4f9cf9;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.try {
+  padding: 13px;
+  background-color: #4f9cf9;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.login {
+  padding: 13px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.info h1,
+.sup-i h1,
+.inform h1,
+.sponsors h1 {
+  padding: 30px 0;
+  font-size: 2.3rem;
+  z-index: 1;
+}
+
+.blueimage {
+  width: 90%;
+  background-color: #c4defd;
+  height: 220px;
+  justify-self: center;
+  margin-top: 70px;
+}
+
+.blueimagee {
+  width: 90%;
+  background-color: #c4defd;
+  height: 220px;
+  justify-self: center;
+  margin-top: 70px;
+}
+
+.navbar-button {
+  display: none;
+}
+
+.work img {
+  width: 90%;
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.sup-i {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sup-i p {
+  padding: 10px;
+}
+
+.box-i {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ffe492;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-bottom: 15px;
+  min-width: 80%;
+}
+
+.box-ii {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #043873;
+  padding-bottom: 15px;
+  min-width: 80%;
+}
+
+.box-i h3,
+.box-ii h3 {
+  margin-top: 15px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.box-i h2 {
+  margin-top: 16px;
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+.box-ii h2 {
+  margin-top: 16px;
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  color: #ffe492;
+}
+
+.box-i p,
+.box-ii p {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.feat {
+  display: flex;
+  gap: 1rem;
+}
+
+.feat p {
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.box-i button {
+  padding: 13px 20px;
+  background-color: #fff;
+  border: 1px solid #ffe492;
+  border-radius: 5px;
+  width: 120px;
+  margin-top: 10px;
+}
+
+.box-ii button {
+  padding: 13px;
+  background-color: #4f9cf9;
+  border-radius: 5px;
+  width: 120px;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.sup-ii {
+  display: flex;
+  overflow-y: scroll;
+}
+
+.inform {
+  text-align: start;
+}
+
+.semi img,
+.semii img {
+  width: 90%;
+}
+
+.semi {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.semii {
+  display: none;
+}
+
+.section-iv {
+  padding: 10px;
+  margin-top: 60px;
+}
+
+.section-iv h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.readmore {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsors {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.sponsors h1 {
+  text-align: center;
+}
+
+.sponsor-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.sponsor-logo img {
+  width: 200px;
+  justify-self: center;
+}
+
+.apple img {
+  width: 50px;
+  margin-top: 20px;
+}
+
+.client-i {
+  padding: 15px;
+  margin-top: 20px;
+  min-width: 85%;
+  border-radius: 10px;
+  box-shadow: 15px 15px 15px 15px #d5d5d5;
+}
+
+.para {
+  border-bottom: 1.5px solid #212529;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.parag {
+  border-bottom: 1.5px solid #fff;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.client-ii {
+  padding: 15px;
+  padding-top: 15px;
+  min-width: 85%;
+  background-color: #4f9cf9;
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.client-ii h4 {
+  color: #043873;
+  font-size: 1.5rem;
+}
+
+.quote img {
+  width: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.profil img {
+  width: 60px;
+  height: 60px;
+  margin: 20px 0;
+}
+
+.client {
+  display: flex;
+  gap: 1rem;
+  overflow: scroll;
+  padding: 10px;
+}
+
+.profil {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 10px;
+}
+
+.hp {
+  margin: 20px 0;
+}
+
+.sliders {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.sliders img {
+  width: 40px;
+}
+
+footer {
+  background-color: #043873;
+  color: #fff;
+  padding: 15px;
+}
+
+.footer-seci {
+  padding-top: 65px;
+}
+
+.trywhite h1 {
+  margin-bottom: 30px;
+}
+
+.trywhite img {
+  width: 180px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-secii {
+  margin-top: 10rem;
+}
+
+.logos {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.logos h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.logos img {
+  width: 40px;
+  height: 35px;
+  margin-top: 8px;
+}
+
+.part-i {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.part-ii {
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.part-ii h2 {
+  font-weight: 400;
+}
+
+.part-i h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-seciii {
+  text-align: center;
+}
+
+.footer-seciii img {
+  padding: 40px;
+  width: 150px;
+}
+
+.terms {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 30px;
+  border-bottom: 1.5px solid #2e4e73;
+}
+
+.terms img {
+  width: 20px;
+  padding: 0;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+
+.slash img {
+  width: 250px;
+  position: absolute;
+  top: 110px;
+  z-index: -1;
+  left: 40px;
+}
+
+.info {
+  position: relative;
+}
+
+.emty {
+  position: relative;
+}
+
+.slash-i img {
+  width: 150px;
+  height: 20px;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  z-index: -1;
+}
+
+.slash-ii img {
+  width: 150px;
+  position: absolute;
+  top: 70px;
+  z-index: 1;
+}
+
+.slash-iii img {
+  width: 210px;
+  position: absolute;
+  top: 110px;
+  z-index: -1;
+  height: 25px;
+  left: 60px;
+}
+
+.slash-iv img {
+  width: 180px;
+  position: absolute;
+  top: 60px;
+  z-index: -1;
+  height: 22px;
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  .navbar-button {
+    display: block;
+    justify-content: space-between;
+  }
+
+  .section-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .slash-iv img {
+    right: 205px;
+    width: 185px;
+    top: 67px;
+  }
+
+  .slash-iii img {
+    width: 230px;
+    top: 125px;
+    left: 1px;
+    height: 20px;
+  }
+
+  .slash-ii img {
+    width: 210px;
+    height: 13px;
+    right: 30px;
+  }
+
+  .slash-i img {
+    width: 190px;
+    height: 18px;
+    right: 60px;
+  }
+
+  .slash img {
+    width: 200px;
+    left: 80px;
+    top: 120px;
+  }
+
+  .blueimage {
+    height: 250px;
+    margin-top: 30px;
+    justify-self: end;
+    padding: 10px;
+  }
+
+  .blueimagee {
+    justify-self: start;
+    padding: 10px;
+    margin-top: 50px;
+    height: 250px;
+  }
+
+  .info h1,
+  .sup-i h1,
+  .inform h1,
+  .sponsors h1 {
+    font-size: 2.6em;
+  }
+
+  .section-i .section-div {
+    background-size: cover;
+    background-image: url("./images/vec-i.png");
+    background-repeat: no-repeat;
+  }
+
+  .sup-i p {
+    padding: 0 28px;
+  }
+
+  .info {
+    text-align: start;
+  }
+
+  .info h1 {
+    padding: 30px 30px 20px 0;
+  }
+
+  .info p {
+    padding-right: 35px;
+    font-size: 15px;
+  }
+
+  .inform p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .info button,
+  .inform button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .section-i {
+    padding: 20px;
+    background-image: none;
+  }
+
+  .section-ii {
+    padding: 20px;
+  }
+
+  .menu img {
+    width: 30px;
+    height: 30px;
+    padding-top: 8px;
+  }
+
+  .bigg {
+    margin-top: 45px;
+  }
+
+  .work {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+  }
+
+  .int {
+    margin-top: 40px;
+  }
+
+  .inf {
+    margin-top: 70px;
+  }
+
+  .box-i {
+    min-width: 180px;
+  }
+
+  .box-ii {
+    min-width: 180px;
+  }
+
+  .sup-ii {
+    padding: 10px;
+  }
+
+  .inform {
+    width: 456px;
+  }
+
+  .semii {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .semii img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .semi {
+    display: none;
+  }
+
+  .section-divv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+  }
+
+  .readmore {
+    justify-content: start;
+  }
+
+  .sponsors {
+    margin-top: 50px;
+  }
+
+  .sponsor-logo {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .sponsor-logo img {
+    width: 150px;
+  }
+
+  .apple img {
+    width: 40px;
+    margin-top: 0;
+  }
+
+  .footer-seciii img {
+    padding-top: 0;
+    width: 100px;
+  }
+
+  .logos img {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .terms img {
+    width: 20px;
+    margin-top: 0;
+  }
+
+  .section-vi .work img {
+    height: 300px;
+    width: 370px;
+  }
+
+  .section-vi .work {
+    margin-right: 40px;
+    margin-top: 80px;
+  }
+
+  .section-vi .section-div {
+    margin-top: 40px;
+  }
+
+  .client-i,
+  .client-ii {
+    min-width: 200px;
+  }
+
+  .footer-seci {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-secii {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    font-size: 0.8rem;
+    margin-top: 7rem;
+    border-bottom: 1.5px solid #2e4e73;
+  }
+
+  .part-ii h2 {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .part-i h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .footer-seciii {
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+
+  .part-i {
+    text-align: start;
+    margin-bottom: 40px;
+  }
+
+  .logos {
+    justify-content: start;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .logos h2 {
+    margin-top: -9px;
+  }
+
+  .terms {
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: space-between;
+    border: none;
+  }
+
+  .hp h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: 992px) {
+    nav {
+      display: flex;
+      gap: 2rem;
+      font-size: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .menu {
+      justify-content: space-between;
+      gap: 4rem;
+    }
+
+    .menu img {
+      display: none;
+    }
+
+    .blueimage {
+      width: 400px;
+      height: 300px;
+      margin-top: 50px;
+    }
+
+    .info {
+      padding-top: 45px;
+      margin-bottom: 30px;
+    }
+
+    .info button,
+    .inform button {
+      margin-top: 40px;
+    }
+
+    .info h1,
+    .sup-i h1,
+    .inform h1,
+    .sponsors h1 {
+      font-size: 3rem;
+    }
+
+    .info p,
+    .inform p {
+      font-size: 18px;
+    }
+
+    .inform {
+      text-align: center;
+      width: 100%;
+    }
+
+    .semii img {
+      width: 550px;
+      height: 300px;
+      margin-top: 20px;
+    }
+
+    .semii {
+      justify-content: end;
+      margin-top: 60px;
+    }
+
+    .section-vi .work {
+      margin-top: 70px;
+      margin-right: 30px;
+    }
+
+    .section-vi .work img {
+      width: 450px;
+      height: 360px;
+    }
+
+    .section-vi .section-div {
+      margin-top: 60px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-i,
+  .section-ii,
+  .section-iv,
+  .section-v,
+  .section-vi,
+  header,
+  .footer {
+    padding: 30px 50px 20px;
+  }
+}
